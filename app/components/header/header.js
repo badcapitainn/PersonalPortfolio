@@ -30,7 +30,7 @@ export default function Header() {
                 alt="Avatar"
                 className="rounded-full"
                 height={32}
-                src="/placeholder.svg"
+                src="/image1.jpg"
                 style={{
                   aspectRatio: "32/32",
                   objectFit: "cover",
