@@ -5,7 +5,7 @@ export default function Component() {
         <div className="container px-4 py-6 mx-auto space-y-6 text-xl leading-loose text-gray-900 dark:text-gray-50">
           <div className="flex prose lg:prose-xl max-w-[900px] mx-auto">
             <img
-              className="w-64 h-64 rounded-full mr-8"
+              className="w-64 h-64 rounded-full mr-10"
               src="/image1.jpg"
               alt="Your Name"
             />
