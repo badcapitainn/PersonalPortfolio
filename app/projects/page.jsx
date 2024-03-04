@@ -2,7 +2,8 @@ export default function Projects() {
   // Replace this with your actual data
   const projects = [
     {
-      image: "/portfoliopic.png",
+      name: "personal portfolio.",
+      image: "portfoliopic.png",
       description:
         "a personal portfolio website i created to to manage my projects, archievements and also to practice my web development in new and mordern frameworks like javascript and tailwind. ",
       stacks: ["next.js", "javascript.", "tailwind."],
@@ -10,6 +11,7 @@ export default function Projects() {
     },
 
     {
+      name: "let's talk.",
       image: "/letstalkpic.png",
       description:
         "a mobile app language translator that translate from english to chinese in text as well as turn the chinese text into speech, i am still yet to create the conversation aspect of the app ",
@@ -37,7 +39,8 @@ export default function Projects() {
                   alt="Project"
                   className="object-cover w-full h-64 rounded-md"
                 />
-                <p className="mt-4">{project.description}</p>
+                <h2 className="mt-4 text-2xl font-bold">{project.name}</h2>
+                <p className="mt-2">{project.description}</p>
                 <h3 className="mt-4 font-semibold">development stack.</h3>
                 <ul className="list-disc list-inside">
                   {project.stacks.map((stack, i) => (
