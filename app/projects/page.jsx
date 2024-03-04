@@ -27,7 +27,7 @@ export default function Projects() {
       <section className="flex items-center justify-center h-full">
         <div className="flex flex-col items-center px-4 space-y-8 md:px-8 lg:px-16">
           <h1 className="text-3xl font-bold sm:text-6xl">my projects.</h1>
-
+          
           <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2">
             {projects.map((project, index) => (
               <div
