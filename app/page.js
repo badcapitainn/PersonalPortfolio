@@ -12,9 +12,9 @@ export default function Component() {
             </p>
             <div className="flex mt-4 space-x-4">
               <a href="https://github.com/badcapitainn" className="px-4 py-2 bg-transparent border border-black rounded hover:bg-gray-400">github.</a>
-              <a href="https://linkedin.com/in/yourusername" className="px-4 py-2 bg-transparent border border-black rounded hover:bg-gray-400">linkedIn.</a>
-              <a href="https://stackoverflow.com/users/youruserid" className="px-4 py-2 bg-transparent border border-black rounded hover:bg-gray-400">stackoverflow.</a>
-              <a href="/resume" className="px-4 py-2 bg-transparent border border-black rounded hover:bg-gray-400">myResume.</a>
+              <a href="https://www.linkedin.com/in/prince-madzamba-a5aaa027a/" className="px-4 py-2 bg-transparent border border-black rounded hover:bg-gray-400">linkedIn.</a>
+              <a href="https://stackoverflow.com/users/19962868/badcapitainn" className="px-4 py-2 bg-transparent border border-black rounded hover:bg-gray-400">stackoverflow.</a>
+              <a href="/CV-Prince-Madzamba.pdf" className="px-4 py-2 bg-transparent border border-black rounded hover:bg-gray-400">myResume.</a>
             </div>
           </div>
         </div>

@@ -8,12 +8,7 @@ export default function Footer() {
             © 2023 Acme Inc. All rights reserved.
           </p>
           <nav className="flex items-center space-x-4">
-            <Link className="font-medium" href="#">
-              Terms & Conditions
-            </Link>
-            <Link className="font-medium" href="#">
-              Privacy Policy
-            </Link>
+            <p>madzambaprince111@gmail.com</p>
           </nav>
         </div>
       </footer>

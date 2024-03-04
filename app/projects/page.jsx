@@ -14,10 +14,20 @@ export default function Projects() {
       name: "let's talk.",
       image: "/letstalkpic.png",
       description:
-        "a mobile app language translator that translate from english to chinese in text as well as turn the chinese text into speech, i am still yet to create the conversation aspect of the app ",
+        "a mobile app language translator that translate from english to chinese in text as well as turn the chinese text into speech, i am still yet to create the conversation aspect of the app. ",
       stacks: ["jetpack compose.", "kotlin.", "ml-kits."],
       githubLink: "https://github.com/badcapitainn/LetsTalk",
     },
+
+    {
+      name: "employeems.",
+      image: "/emspic.png",
+      description:
+        "this system manages employees, assigns and manages tasks as well as manages employee leave days, employees can create accounts where they can update their information and their task statuses as well as request leave days.",
+      stacks: ["mysql.", "express.", "react.", "node."],
+      githubLink: "https://github.com/badcapitainn/EMPLOYEEMS",
+    },
+
 
     // Add more projects as needed
   ];
