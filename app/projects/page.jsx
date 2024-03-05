@@ -28,6 +28,15 @@ export default function Projects() {
       githubLink: "https://github.com/badcapitainn/EMPLOYEEMS",
     },
 
+    {
+      name: "python-standard-cal.",
+      image: "/calcpic.png",
+      description:
+        "standard calculator that can perform basic arithmetic such as addition, subtraction, multiplication and division. it also follows the bodmas laws and is incapable of dividing by zero",
+      stacks: ["python.", "tkinter."],
+      githubLink: "https://github.com/badcapitainn/python-standard-Cal",
+    },
+
 
     // Add more projects as needed
   ];
