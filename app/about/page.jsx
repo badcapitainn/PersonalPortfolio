@@ -30,7 +30,7 @@ export default function About() {
           </p>
 
           <h3 className="text-3xl font-bold md:text-5xl">i prefer.</h3>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-4 gap-4">
             {/* Repeat for each language */}
             {["python", "javascript", "kotlin", "java"].map((language) => (
               <div

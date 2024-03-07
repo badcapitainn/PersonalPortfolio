@@ -3,6 +3,7 @@ export default function Projects() {
   const projects = [
     {
       name: "personal portfolio.",
+      date: "",
       image: "portfoliopic.png",
       description:
         "a personal portfolio website i created to to manage my projects, archievements and also to practice my web development in new and mordern frameworks like javascript and tailwind. ",
@@ -12,6 +13,7 @@ export default function Projects() {
 
     {
       name: "let's talk.",
+      date:"",
       image: "/letstalkpic.png",
       description:
         "a mobile app language translator that translate from english to chinese in text as well as turn the chinese text into speech, i am still yet to create the conversation aspect of the app. ",
@@ -21,6 +23,7 @@ export default function Projects() {
 
     {
       name: "employeems.",
+      date: "",
       image: "/emspic.png",
       description:
         "this system manages employees, assigns and manages tasks as well as manages employee leave days, employees can create accounts where they can update their information and their task statuses as well as request leave days.",
@@ -30,6 +33,7 @@ export default function Projects() {
 
     {
       name: "python-standard-cal.",
+      date: "",
       image: "/calcpic.png",
       description:
         "standard calculator that can perform basic arithmetic such as addition, subtraction, multiplication and division. it also follows the bodmas laws and is incapable of dividing by zero",
@@ -59,6 +63,7 @@ export default function Projects() {
                   className="object-cover w-full h-64 rounded-md"
                 />
                 <h2 className="mt-4 text-2xl font-bold">{project.name}</h2>
+                <h2 className="mt-4 text-2xl font-semi-bold">{project.date}</h2>
                 <p className="mt-2">{project.description}</p>
                 <h3 className="mt-4 font-semibold">development stack.</h3>
                 <ul className="list-disc list-inside">
